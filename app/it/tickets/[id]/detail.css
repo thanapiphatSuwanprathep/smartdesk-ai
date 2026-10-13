@@ -1,0 +1,345 @@
+
+/* ======================================
+   SMARTDESK AI - IT TICKET DETAIL
+   Navy / Blue / Slate Theme
+====================================== */
+
+.it-detail-page {
+  min-height: 100vh;
+  background: #f1f5f9;
+  color: #1c334f;
+}
+
+/* NAVBAR */
+
+.it-detail-navbar {
+  background: #0c2342 !important;
+  border-bottom: 1px solid #25466b;
+  box-shadow: 0 5px 20px rgba(12, 35, 66, 0.12);
+  padding: 12px 0;
+}
+
+.it-detail-navbar .navbar-brand {
+  color: #ffffff !important;
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.it-detail-navbar .navbar-brand:hover {
+  color: #8ed3ff !important;
+}
+
+.it-detail-navbar .btn {
+  border-radius: 9px;
+  padding: 9px 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.it-detail-navbar .btn-outline-secondary {
+  color: #d5e6f8;
+  border-color: #42617f;
+}
+
+.it-detail-navbar .btn-outline-secondary:hover {
+  background: #23476d;
+  color: white;
+}
+
+.it-detail-navbar .btn-primary {
+  background: #1768b4;
+  border-color: #1768b4;
+}
+
+/* MAIN CONTENT */
+
+.it-detail-page main.container {
+  padding-top: 38px !important;
+  padding-bottom: 70px !important;
+}
+
+/* BACK LINK */
+
+.it-detail-page main > .mb-4 > a {
+  display: inline-flex;
+  align-items: center;
+  background: #e4effa;
+  border: 1px solid #d3e4f5;
+  border-radius: 9px;
+  padding: 11px 16px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #175b9e !important;
+  transition: 0.2s;
+}
+
+.it-detail-page main > .mb-4 > a:hover {
+  background: #d5e8f9;
+  transform: translateX(-2px);
+}
+
+/* CARDS */
+
+.it-detail-page .card {
+  background: #ffffff;
+  border: 1px solid #e1e8f0 !important;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(22, 49, 80, 0.045) !important;
+  overflow: hidden;
+}
+
+.it-detail-page .card-body {
+  padding: 27px !important;
+}
+
+.it-detail-page .card h5 {
+  color: #16375a;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.it-detail-page .card h2 {
+  color: #102b4d !important;
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.it-detail-page .text-muted {
+  color: #8192a6 !important;
+}
+
+.it-detail-page hr {
+  border: 0;
+  border-top: 1px solid #e4ebf2;
+  opacity: 1;
+  margin: 19px 0;
+}
+
+/* TICKET DESCRIPTION */
+
+.it-detail-page .card:first-child .rounded.mt-3 {
+  background: #f2f7fc !important;
+  border: 1px solid #e1ebf5;
+  border-left: 4px solid #2b81c7;
+  border-radius: 10px !important;
+  color: #354c65;
+  padding: 19px !important;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+/* STATUS AND PRIORITY BADGES */
+
+.it-detail-page .badge {
+  padding: 8px 11px;
+  border-radius: 7px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.it-detail-page .badge.bg-primary {
+  background: #e3f1ff !important;
+  color: #1768b4 !important;
+}
+
+.it-detail-page .badge.bg-warning {
+  background: #fff1d6 !important;
+  color: #9c670d !important;
+}
+
+.it-detail-page .badge.bg-success {
+  background: #e0f5eb !important;
+  color: #167e57 !important;
+}
+
+.it-detail-page .badge.bg-secondary {
+  background: #e9eef4 !important;
+  color: #60738a !important;
+}
+
+.it-detail-page .badge.bg-info {
+  background: #e1f4fc !important;
+  color: #14769f !important;
+}
+
+.it-detail-page .badge.bg-danger {
+  background: #ffeaee !important;
+  color: #b92d49 !important;
+}
+
+.it-detail-page .badge.bg-dark {
+  background: #173c63 !important;
+  color: #fff !important;
+}
+
+/* BUTTONS */
+
+.it-detail-page .btn {
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.it-detail-page .card .btn-primary {
+  background: #1768b4;
+  border-color: #1768b4;
+  border-radius: 9px;
+  padding: 10px 19px;
+}
+
+.it-detail-page .card .btn-primary:hover {
+  background: #104e89;
+  border-color: #104e89;
+}
+
+.it-detail-page .card .btn-success {
+  background: #14815d;
+  border-color: #14815d;
+  border-radius: 9px;
+  padding: 10px 19px;
+}
+
+.it-detail-page .card .btn-success:hover {
+  background: #0f6549;
+}
+
+/* CHAT PANEL */
+
+.it-detail-page .card .border.rounded.p-3.mb-3 {
+  background: #f3f7fc !important;
+  border: 1px solid #e1eaf3 !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  scrollbar-color: #b7c9db #f3f7fc;
+}
+
+/* CHAT BUBBLES */
+
+.it-detail-page .card .bg-primary.text-white {
+  background: linear-gradient(
+    135deg,
+    #176bb8,
+    #104b83
+  ) !important;
+  border-radius: 13px 13px 3px 13px !important;
+  box-shadow: 0 3px 10px rgba(19, 92, 157, 0.12);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.it-detail-page .card .bg-white.border.text-dark {
+  background: #ffffff !important;
+  border: 1px solid #dce6ef !important;
+  border-radius: 13px 13px 13px 3px !important;
+  color: #31475f !important;
+  font-size: 13px;
+  line-height: 1.8;
+  box-shadow: 0 2px 8px rgba(20, 48, 78, 0.04);
+}
+
+/* CHAT INPUT */
+
+.it-detail-page textarea.form-control {
+  background: #f9fbfd;
+  border: 1px solid #d7e2ed;
+  border-radius: 10px 0 0 10px;
+  color: #263e58;
+  font-size: 13px;
+  padding: 14px;
+  min-height: 75px;
+  box-shadow: none;
+}
+
+.it-detail-page textarea.form-control:focus {
+  background: white;
+  border-color: #4195d8;
+  box-shadow: 0 0 0 3px rgba(65, 149, 216, 0.09);
+}
+
+.it-detail-page .input-group .btn-primary {
+  border-radius: 0 10px 10px 0;
+  min-width: 85px;
+}
+
+/* SIDEBAR */
+
+.it-detail-page .col-lg-4 > .card {
+  border-top: 4px solid #1b6eae !important;
+}
+
+.it-detail-page .col-lg-4 .card h5 {
+  margin-bottom: 27px !important;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5ecf3;
+}
+
+.it-detail-page .col-lg-4 .fw-bold,
+.it-detail-page .col-lg-4 .fw-semibold {
+  color: #1b3857;
+}
+
+.it-detail-page .col-lg-4 .small {
+  font-size: 11px;
+}
+
+.it-detail-page .col-lg-4 .mb-3 {
+  line-height: 1.8;
+}
+
+.it-detail-page .col-lg-4 .card-body > hr {
+  margin: 19px 0;
+}
+
+/* LOADING */
+
+.it-detail-page .spinner-border {
+  color: #1768b4 !important;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+  .it-detail-page .card-body {
+    padding: 23px !important;
+  }
+
+  .it-detail-page .card h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 575px) {
+  .it-detail-navbar .container {
+    gap: 12px;
+  }
+
+  .it-detail-navbar .navbar-brand {
+    font-size: 18px;
+  }
+
+  .it-detail-navbar .btn {
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+
+  .it-detail-page main.container {
+    padding-top: 23px !important;
+  }
+
+  .it-detail-page .card-body {
+    padding: 19px !important;
+  }
+
+  .it-detail-page .card h2 {
+    font-size: 21px;
+  }
+
+  .it-detail-page .badge.fs-6 {
+    font-size: 11px !important;
+  }
+
+  .it-detail-page .input-group {
+    flex-wrap: nowrap;
+  }
+}
